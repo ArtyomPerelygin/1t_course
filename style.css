@@ -1,0 +1,183 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(245, 238, 223);
+}
+
+.main-box{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 19, 2);
+    background-color: rgb(233, 229, 224);
+
+}
+.title{
+    background-color:rgba(77, 52, 92, 0.973);
+}
+.img{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 170px;
+    object-fit:cover;
+    position:relative;
+    left: 20px;
+}
+.form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 19, 2);
+    background-color: rgb(245, 229, 199);
+}
+.footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(245, 238, 223);
+    background-color:rgba(77, 52, 92, 0.973);   
+}
+
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px; height: 30px;
+    background-color:rgba(77, 52, 92, 0.973); 
+    border-style:solid;
+}
+.link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(245, 238, 223);
+}
+.name{
+    position: absolute;
+    left: 470px;
+    top: 150px;
+}
+.subtitle{
+    width: 1760px;
+    margin: 0 auto;
+    padding: 40px 40px 10px 40px;
+}
+.lead{
+    width: 1760px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.experience_heading{
+    width: 1760px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.experience_wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 490px;
+}
+.experience_content{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 20px;
+    position: relative;
+    left: 270px;   
+}
+.experience_title_1{
+    position: relative;
+    right: 17px;
+}
+.container{
+    width: 1760px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.skills{
+    width: 1760px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+.language{
+    width: 1760px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+li::marker{
+    color: rgb(141, 109, 50);
+}
+
+.form_heading{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form_title_box{
+    display: flex;
+    justify-content: center;
+}
+
+.form_input{
+    width: 366px;
+    border: 3px solid rgb(141, 109, 50);
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(245, 229, 199);
+    font-weight: bold;
+    resize: none;
+}
+
+.area_wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form_textarea{
+    width: 736px;
+    border: 3px solid rgb(141, 109, 50);
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(245, 229, 199);
+    font-weight: bold;
+    resize: none;
+}
+
+.form_btn{
+    display: block;
+    margin-top: 50px;
+    width: 168px;
+    height: 40.28px;
+    background: rgba(77, 52, 92, 0.973);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    left: 870px;
+    top: -30px;   
+}
+
+.footer_heading{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer_list{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none;
+}
+.footer_text{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
